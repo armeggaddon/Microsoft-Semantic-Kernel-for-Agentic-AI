@@ -19,17 +19,15 @@ def sk_agent_response(user_message, chat_history, session_id):
         output_ = json.loads(response.text)
         
         if output_.get("download_flag",False):
-            download_data = output_.get("download_data")
             file_name = output_.get("file_name")
             chat_response = output_.get("chat_response")
             
-            file_path = f"{CONSTS.local_repo}/file_name"
-                
-            final_output = f"{chat_response}"
+            file_path = f"{CONSTS.local_repo}/{file_name}"
+            final_output = f"{chat_response}, [{file_name{]({file_path})"
+              
             
         else:
             final_output = output_.get('chat_response')
-        
         
     except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
         final_output = 'Server down, please try later!!!'
