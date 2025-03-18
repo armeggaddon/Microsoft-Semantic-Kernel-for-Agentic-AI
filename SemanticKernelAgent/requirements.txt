@@ -1,6 +1,5 @@
 fastapi==0.115.11
-pandas==2.0.3
-Requests==2.32.3
-semantic_kernel==1.24.1
 gradio==5.21.0
+Requests==2.31.0
+semantic_kernel==1.20.0
 uvicorn==0.34.0
