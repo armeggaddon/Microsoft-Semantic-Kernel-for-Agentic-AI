@@ -15,7 +15,7 @@ def sk_agent_response(user_message, chat_history, session_id):
     params_={"user_input":user_message}
     
     try:
-        response = requests.post("http://localhost:8097/invokeAgentWorkflow", params=params_, headers=headers) 
+        response = requests.post(f"http://localhost:{int(CONSTS.default_port)}/invokeAgentWorkflow", params=params_, headers=headers) 
         output_ = json.loads(response.text)
         
         if output_.get("download_flag",False):
@@ -23,7 +23,7 @@ def sk_agent_response(user_message, chat_history, session_id):
             chat_response = output_.get("chat_response")
             
             file_path = f"{CONSTS.local_repo}/{file_name}"
-            final_output = f"{chat_response}, [{file_name{]({file_path})"
+            final_output = f"{chat_response}, [{file_name}]({file_path})"
               
             
         else:
