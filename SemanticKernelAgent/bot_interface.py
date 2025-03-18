@@ -39,7 +39,7 @@ id_component = gr.State(value = 'sk_agent_ui')
 sk_demo = gr.ChatInterface(sk_agent_response,
                         additional_inputs = [id_component],
                         chatbot=gr.Chatbot(label='Play around with GitHub!!!',
-                                           avatar_images=('./images/user.png','./images/bot.jpg'),
+                                           avatar_images=('./images/user.png','./images/bot.png'),
                                            scale=1,
                                            height=400,
                                            type="messages",
