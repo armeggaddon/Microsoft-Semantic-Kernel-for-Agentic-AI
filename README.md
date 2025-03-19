@@ -186,5 +186,14 @@ This system is designed for modularity and extensibility:
   
    
 ---  
+
+## ▶️ Quick Start
+
+Clone the repo, pip install the requirements and refer the video to progress
+
+[![Microsoft Semantic Kernel for Agentic AI](https://i9.ytimg.com/vi_webp/OwgAvdYUArA/maxresdefault.webp?v=67d94d01&sqp=CMC36L4G&rs=AOn4CLBocwq78roOCa0H3iino08pC3DGXA)](https://www.youtube.com/watch?v=OwgAvdYUArA)
+
+
+---
    
 This system demonstrates the power of **Semantic Kernel** in enabling intelligent multi-agent collaboration for complex tasks like test case creation and management. Join us in making software testing smarter, faster, and more collaborative! 🎉
