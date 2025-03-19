@@ -4,7 +4,7 @@ Welcome to the **Microsoft Semantic Kernel for Agentic AI** repository! This res
   
 ---  
    
-## 🧰 Prerequisites  
+## 🧰 Pre-requisites  
    
 To get started, you'll need the following:  
    
