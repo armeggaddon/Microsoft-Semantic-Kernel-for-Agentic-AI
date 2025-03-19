@@ -169,7 +169,8 @@ This system is designed for modularity and extensibility:
 - Add additional agents for specialized roles (e.g., Security test creation).  
 - Enhance Reviewer criteria for more stringent validations.  
 - Integrate CI/CD pipelines to automatically execute saved test cases.  
-- Expand plugins for tools like **JIRA**, **Slack**, or **Azure DevOps**.  
+- Expand plugins for tools like **JIRA**, **Slack**, or **Azure DevOps**.
+- Create plugins to integreate the Unit test case with your source code. 
    
 ---  
    
