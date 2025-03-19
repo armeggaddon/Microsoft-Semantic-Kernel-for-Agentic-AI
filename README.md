@@ -32,7 +32,7 @@ Welcome to the **Test Case Management System**, powered by **Semantic Kernel**! 
    
 ---  
    
-## Highlights of Semantic Kernel Components  
+## ✨ Highlights of Semantic Kernel Components  
    
 This project leverages **Semantic Kernel**'s modular and extensible components, such as **Kernel Functions**, **Agents**, **Plugins**, and **Strategies**, to create an intelligent test case lifecycle management system.  
    
@@ -40,7 +40,7 @@ Here’s how the main Semantic Kernel components are utilized:
    
 ---  
    
-### **Kernel Functions**  
+### 🛠️ **Kernel Functions**  
    
 #### **1. Chat Completion**  
 The backbone of the system is built on **Chat Completion Agents**, which enable dynamic and intelligent behavior. Each agent is instantiated with a **service_id**, specified instructions, and configurations (**KernelArguments**) to simulate specialized roles:  
@@ -55,7 +55,7 @@ Kernel functions enable the execution of dynamic prompts and decisions:
    
 ---  
    
-### **Agents**  
+### 🕵️ **Agents**  
    
 The system operates through three key **ChatCompletionAgents**:  
 #### **1. Coordinator Agent**  
@@ -76,7 +76,7 @@ The Reviewer agent is responsible for strict validation:
    
 ---  
    
-### **Plugins**    
+### 🔌 **Plugins**    
 Plugins in Semantic Kernel enable external integrations and efficient task execution.  
    
 #### **GitHub Plugin**  
@@ -91,7 +91,7 @@ Plugins in Semantic Kernel enable external integrations and efficient task execu
    
 ---  
    
-### **Strategies**  
+### 🎯 **Strategies**  
    
 #### **1. Selection Strategy**  
 The **KernelFunctionSelectionStrategy** dynamically chooses which agent takes the next turn based on the conversational history:  
@@ -108,7 +108,7 @@ The **FunctionChoiceBehavior** ensures agents execute their roles autonomously u
    
 ---  
    
-### **Agent Collaboration: Group Chat**  
+### 🤝 **Agent Collaboration: Group Chat**  
    
 The **AgentGroupChat** facilitates dynamic collaboration among the three agents:  
 1. User requirements are gathered by the Coordinator.  
@@ -120,7 +120,7 @@ The **selection rules** embedded in the Kernel Function ensure an organized turn
    
 ---  
    
-## Test Case Lifecycle Flow  
+## ➿ Test Case Lifecycle Flow  
    
 ### **Interactive Workflow**  
    
@@ -145,7 +145,7 @@ The process intelligently terminates once the Reviewer approves the test case an
    
 ---  
    
-## How Does It Work?  
+## 🔍 How Does It Work?  
    
 ### 1. **Coordinator Initialization**  
    - Use `get_tc_manager()` to launch the Coordinator agent.  
@@ -161,7 +161,7 @@ The process intelligently terminates once the Reviewer approves the test case an
    
 ---  
    
-## Semantic Kernel Components in Action  
+## 🏋️ Semantic Kernel Components in Action  
    
 ### **Dynamic Prompt Construction**  
 Agents use prompt-based instructions embedded in the kernel. For instance, the Developer prompt illustrates constructing test cases using the **Arrange-Act-Assert** structure.  
@@ -177,7 +177,7 @@ Plugins, such as the GitHub Plugin and Save Plugin, extend functionality by enab
    
 ---  
    
-## Extensibility and Future Directions  
+## 🚦 Extensibility and Future Directions  
    
 This system is designed for modularity and extensibility:  
 - Add additional agents for specialized roles (e.g., Security test creation).  
@@ -187,7 +187,7 @@ This system is designed for modularity and extensibility:
    
 ---  
    
-## Technologies Used  
+## 🧠 Technologies Used  
    
 - **Semantic Kernel**:  
    Enables prompt engineering, function selection, agent orchestration, and dynamic AI-backed workflows.  
