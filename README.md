@@ -123,7 +123,8 @@ The **selection rules** embedded in the Kernel Function ensure an organized turn
 ## ➿ Test Case Lifecycle Flow  
    
 ### **Interactive Workflow**  
-   
+
+<img src="https://github.com/armeggaddon/Microsoft-Semantic-Kernel-for-Agentic-AI/blob/main/sk_flow_diagram.png" alt="Microsoft Semantic Kernel Agentic AI" width="300" height="200">
 ![Microsoft Semantic Kernel Agentic AI](https://github.com/armeggaddon/Microsoft-Semantic-Kernel-for-Agentic-AI/blob/main/sk_flow_diagram.png)
    
 ### **Agent Termination**  
