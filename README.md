@@ -194,4 +194,4 @@ Clone the repo, pip install the requirements and refer the video to progress
 
 https://www.youtube.com/watch?v=OwgAvdYUArA
    
-This system demonstrates the power of **Semantic Kernel** in enabling intelligent multi-agent collaboration for complex tasks like test case creation and management. Join us in making software testing smarter, faster, and more collaborative! 🎉
+This system demonstrates the power of **Semantic Kernel** in enabling intelligent multi-agent collaboration for complex tasks like test case creation and management. Join me in making software testing smarter, faster, and more collaborative! 🎉
