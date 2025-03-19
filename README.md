@@ -125,7 +125,6 @@ The **selection rules** embedded in the Kernel Function ensure an organized turn
 ### **Interactive Workflow**  
 
 <img src="https://github.com/armeggaddon/Microsoft-Semantic-Kernel-for-Agentic-AI/blob/main/sk_flow_diagram.png" alt="Microsoft Semantic Kernel Agentic AI" width="600" height="400">
-![Microsoft Semantic Kernel Agentic AI](https://github.com/armeggaddon/Microsoft-Semantic-Kernel-for-Agentic-AI/blob/main/sk_flow_diagram.png)
    
 ### **Agent Termination**  
 The process intelligently terminates once the Reviewer approves the test case and outputs the finalized code.  
@@ -191,6 +190,8 @@ This system is designed for modularity and extensibility:
 ## ▶️ Quick Start
 
 Clone the repo, pip install the requirements and refer the video to progress
+
+https://www.youtube.com/watch?v=OwgAvdYUArA
 
 [![Microsoft Semantic Kernel for Agentic AI](https://i9.ytimg.com/vi_webp/OwgAvdYUArA/maxresdefault.webp?v=67d94d01&sqp=CMC36L4G&rs=AOn4CLBocwq78roOCa0H3iino08pC3DGXA)](https://www.youtube.com/watch?v=OwgAvdYUArA)
 
