@@ -124,21 +124,7 @@ The **selection rules** embedded in the Kernel Function ensure an organized turn
    
 ### **Interactive Workflow**  
    
-```  
-User Input (Requirements)  
-    ↓  
-Coordinator Agent (Project discovery & guidance)  
-    ↓  
-Developer Agent (Generate test case code)  
-    ↓  
-Reviewer Agent (Validate and approve)  
-    ↓  
-Repeat Developer ↔ Reviewer until code is reviewed  
-    ↓  
-Save test cases to file  
-```  
-
-<<flow chart>>
+![Microsoft Semantic Kernel Agentic AI](https://github.com/armeggaddon/Microsoft-Semantic-Kernel-for-Agentic-AI/blob/main/sk_flow_diagram.png)
    
 ### **Agent Termination**  
 The process intelligently terminates once the Reviewer approves the test case and outputs the finalized code.  
